@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: cornsilk;
+    font-family: "Roboto", sans-serif;
+}
+
+.landing{
+    min-height: 100vh;
+    background: url('./images/DesertScapeNight2.png');
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+.bio-section {
+    min-height: 100vh;
+    background: url('./images/Willsunsetwinter2018_web.jpg');
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-links a:link{
+    text-decoration: none;
+}
+
+.nav-links li{
+    padding-left: 10rem;
+    font-size: 1.2rem;
+    
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+#logo{
+    font-family: 'Amatic SC', cursive;
+    color: cornsilk;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+#logo a:link, a:visited{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+
+
+.big-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 6rem;
+    font-family: 'Amatic SC', cursive;
+    color: cornsilk;
+}
+
+#bio-title {
+    font-size: 4rem;
+}
+
+.summary-text {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-40%, -35%);
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bio-text {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-30%, -35%);
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#second-paragraph {
+    padding-top: 1rem;
+}
+
+.summary-text a:link {
+    text-decoration: underline;
+}
+
+.contact-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contact-links {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    background: rgb(18, 19, 102);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%);
+}
+
+.intro-text {
+    color: rgb(233, 233, 233);
+    font-family: 'Heebo', sans-serif;
+    font-size: 3rem;
+}
+
+.hide {
+    background: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-links li{
+        padding-left: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .summary-text {
+        font-size: 1rem;
+    }
+
+    #bio-title {
+        font-size: 2.3rem;
+    }
+
+    .bio-text {
+        top: 50%;
+        font-size: 0.8rem;
+    }
+
+    .intro-text {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .summary-text {
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen and (max-height: 800px) {
+    .big-text {
+        font-size: 1.7rem;
+    }
+    #bio-title {
+        font-size: 1.5rem;
+    }
+
+}
