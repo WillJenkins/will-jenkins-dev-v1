@@ -79,6 +79,11 @@ a:link, a:visited {
     font-size: 4rem;
 }
 
+#home-page-note {
+    padding-top: 4rem;
+    font-size: 1rem;
+}
+
 .summary-text {
     position: absolute;
     top: 45%;
@@ -97,7 +102,7 @@ a:link, a:visited {
     font-family: 'Roboto', sans-serif;
 }
 
-#second-paragraph {
+.bio-paragraph {
     padding-top: 1rem;
 }
 
